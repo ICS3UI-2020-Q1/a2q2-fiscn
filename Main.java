@@ -24,9 +24,9 @@ public class Main {
 
     // Find out which number is the biggest 
     if (A > B) {
-      System.out.println(A + " is the biggest number"); 
+      System.out.println("the biggest number is " + A); 
     } else {
-      System.out.println(B + " is the biggest number");
+      System.out.println("The biggest number is " + B);
     }
 
   }
