@@ -19,7 +19,7 @@ public class Main {
     int A = input.nextInt(); 
 
     // prompt the user to enter a second integer 
-    System.out.println("Please enter a second integer"); 
+    System.out.println("Please enter another integer"); 
     int B = input.nextInt(); 
 
     // Find out which number is the biggest 
