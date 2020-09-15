@@ -1,6 +1,8 @@
+import java.util.Scanner; 
+
 /**
- *
- * @author 
+ * Tells the user the biggest number out of 2 integers 
+ * @author Neil Fischer 
  */
 public class Main {
 
@@ -9,7 +11,23 @@ public class Main {
    * @param args the command line arguments
    */
   public static void main(String[] args) {
-    // TODO code application logic here
-    
+    // Create a Scanner for user input 
+    Scanner input = new Scanner(System.in);  
+
+    // prompt the user to enter an integer 
+    System.out.println("Please enter a integer"); 
+    int A = input.nextInt(); 
+
+    // prompt the user to enter a second integer 
+    System.out.println("Please enter a second integer"); 
+    int B = input.nextInt(); 
+
+    // Find out which number is the biggest 
+    if (A > B) {
+      System.out.println(A + " is the biggest number"); 
+    } else {
+      System.out.println(B + " is the biggest number");
+    }
+
   }
 }
